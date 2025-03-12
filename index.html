@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
     <title>Student Success Portal</title>
 </head>
 <body>
 
     <header>
-        <a href = "">Skip to Main Content</a>
-              <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        <a href="#main" class="skip">Skip to Main Content</a>
+            <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" id="logo">
               <nav>
                   <ul>
                       <li><a href = "index.html">Home</a></li>
@@ -21,17 +28,18 @@
               <h1>Student Success Portal</h1>
 
     </header>
-    <main>
+    <main id = "main" class = "index-page">
         <section>
-            <h2>Welcome to the UM Grad Success Navigator</h2>
-            <p> Your Comprehensive Guide to Resources for Graduate School Success</p>
+            <h2>Welcome to the UMSI Success Navigator</h2>
+            <p> Your Comprehensive Guide for UMSI Success</p>
+            <br>
             <p>This guide is set up to help you be successul inside and outside of the classroom and we have included the following resources throughout our site:</p>
             <ol>
-                <li>Academic Resources</li>
+                <li>Academic</li>
+                <li>First Generation</li>
                 <li>Physical Health</li>
                 <li>Mental Health</li>
                 <li>Life Outside Classroom</li>
-                <li>Contact</li>
             </ol>
         </section>
         <section>
@@ -94,8 +102,35 @@
         <!-- Content taken & modified from UMGPT with the prompt, "write me a webpage of intro content to help University of Michigan Master's students navigate different resources for being successful in grad school - this will include academic resources, physical health resources, mental health resources, support for life outside the classroom"
         UMGPT. (2024). UMGPT (August 29th version) [Large language model]. -->
     </main>
+    
     <footer>
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
-        </footer>
+        <div class="footer-container">
+      
+          <div class="footer-logo">
+            <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" id="logo">
+          </div>
+      
+          <div class="footer-social">
+            <h3>Social Media</h3>
+              <p><a href="https://www.facebook.com/uomsi/">Facebook</a> | <a href="https://www.instagram.com/umschoolofinformation">Instagram</a> | <a href="https://twitter.com/umsi">X</a> | <a href="https://www.youtube.com/user/schoolofinformation">YouTube</a></p>
+          </div>
+      
+          <div class="footer-nav">
+            <h3>Navigation</h3>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="academicplanning.html">Academic Planning</a></p>
+                <p><a href="firstgenevents.html">First Generation Events</a></p>
+                <p><a href="caps.html">CAPS</a></p>
+          </div>
+
+          <div class="footer-other">
+            <h3>Other</h3>
+            <p><a href="https://www.si.umich.edu/about-umsi/contact-us">Contact Us</a> | <a href="https://www.si.umich.edu/privacy-statement">Privacy Statement</a></p>
+          </div>
+
+        </div>
+      </footer>
+
+
 </body>
 </html>

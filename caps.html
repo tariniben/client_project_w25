@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
     <title>Overview of CAPS</title>
 </head>
 <body>
 
     <header>
-        <a href = "">Skip to Main Content</a>
-              <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        <a href="#main" class="skip">Skip to Main Content</a>
+            <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" id="logo">
               <nav>
                   <ul>
                       <li><a href = "index.html">Home</a></li>
@@ -21,14 +28,16 @@
               <h1>CAPS</h1>
       
           </header>
-    <main>
+    <main id = "main" class = "two-column">
+        <!-- <img src="images/dogtherapy.jpg" alt="Group of students petting a therapy dog"> -->
+
         <section>
             <h2>Services Offered</h2>
-            <img src="images/dogtherapy.jpg" alt="Group of students petting a therapy dog">
             <p>Counseling and Psychological Services (CAPS) provides a range of nationally credited clinical, preventative, and training services.</p>
+            <br>
             <article>
                 <h3>Clinical Services</h3>
-                <p>This is a collaborative process between a client and counselor that begins with establishing a trusting and respectful relationship in a caring and nonjudgmental environment. Together the client and counselor explore the concerns of the client and develop mutually agreed upon goals for therapy.</p>
+                <p>This is a collaborative process between a client and counselor that begins with establishing a trusting and respectful relationship in a caring and nonjudgmental environment.</p>
             </article>
             <article>
                 <h3>Crisis Services</h3>
@@ -47,10 +56,6 @@
         <section>
             <h2>FAQs</h2>
             <article>
-                <h3>Hours</h3>
-                <p>CAPS is open Monday - Thursday: 8am-6pm and Friday: 8am-5pm. We are closed on the weekends.</p>
-            </article>
-            <article>
                 <h3>Location</h3>
                 <p>The main central campus office is on the 4th Floor of the <a href="https://maps.app.goo.gl/Xf5mGgmXLijPtczQA">Michigan Union (530 South State Street)</a>.</p>
             </article>
@@ -59,20 +64,49 @@
                 <p>No additional fees are charged.</p>
             </article>
             <article>
+                <h3>Hours</h3>
+                <p>CAPS is open Monday - Thursday: 8am-6pm and Friday: 8am-5pm. We are closed on the weekends.</p>
+            </article>
+            <article>
                 <h3>UMSI CAPS Therapist</h3>
                 <ul>
                     <li>Name - Ashley Evearitt, Psy.D.</li>
-                    <li>Phone Number - 734-764-8312</li>
-                    <li>Email - evearitt@med.umich.edu</li>
+                    <li>Phone Number - <a href="tel:+17347648312">734-764-8312</a></li>
+                    <li>Email - <a href="mailto:evearitt@med.umich.edu">evearitt@med.umich.edu</a></li>
                     <li>Office - <a href="https://maps.app.goo.gl/cEV7a3dwfWc5A7Rd7">School of Information/333 Maynard St, Ste 500</a></li>
                 </ul>
             </article>
         </section>
         <!-- Content taken from U-M CAPS site and modified by myself (Tarini Bengani).  University of Michigan CAPS. (2025). U-M Counseling and Psychological Services. U-M Counseling and Psychological Services. https://caps.umich.edu/ -->
     </main>
+
     <footer>
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
-    </footer>
+        <div class="footer-container">
+      
+          <div class="footer-logo">
+            <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" id="logo">
+          </div>
+      
+          <div class="footer-social">
+            <h3>Social Media</h3>
+              <p><a href="https://www.facebook.com/uomsi/">Facebook</a> | <a href="https://www.instagram.com/umschoolofinformation">Instagram</a> | <a href="https://twitter.com/umsi">X</a> | <a href="https://www.youtube.com/user/schoolofinformation">YouTube</a></p>
+          </div>
+      
+          <div class="footer-nav">
+            <h3>Navigation</h3>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="academicplanning.html">Academic Planning</a></p>
+                <p><a href="firstgenevents.html">First Generation Events</a></p>
+                <p><a href="caps.html">CAPS</a></p>
+          </div>
+
+          <div class="footer-other">
+            <h3>Other</h3>
+            <p><a href="https://www.si.umich.edu/about-umsi/contact-us">Contact Us</a> | <a href="https://www.si.umich.edu/privacy-statement">Privacy Statement</a></p>
+          </div>
+
+        </div>
+      </footer>
     
 </body>
 

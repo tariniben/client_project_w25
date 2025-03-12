@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Different BSI Academic Advising Resources</title>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <title>Different BSI Academic Planning Resources</title>
 </head>
 <body>
 
     <header>
-        <a href = "">Skip to Main Content</a>
-              <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        <a href="#main" class="skip">Skip to Main Content</a>
+            <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" id="logo">
               <nav>
                   <ul>
                       <li><a href = "index.html">Home</a></li>
@@ -21,12 +28,18 @@
               <h1>Academic Planning</h1>
       
           </header>
-    <main>
+    <main id = "main" class = "two-column">
         
         <section>
             <h2>Degree Requirements</h2>
             <img src="images/studentplanning.jpeg" alt="Female student writing on notebook to plan academic schedule">
             <p>An overview of the BSI degree structure to aid your planning process.</p>
+            <br>
+            <article>
+                <h3>Cohort Specific Requirements</h3>
+                <p>Fall 2023 and Fall 2024 start date requirements can be found in this <a href= "https://docs.google.com/document/d/1-a2zUTtPFetYwwlC0cTXoQkK8ERzb3IXn6KHN9evnpM/edit?tab=t.0">Google Doc.</a></p>
+                <!-- <p>Fall 2020 to Fall 2022 start date requirements can be found in this <a href= "https://docs.google.com/document/d/1op-TiBWz7B13xhjSXv4AP4VqDBPf13-c2KtisJbQ8M4/edit?tab=t.0">Google Doc.</a></p> -->
+            </article>
             <article>
                 <h3>Your Time Before UMSI: 55-60+ Credits</h3>
                     <p>This includes all the transfer credit you have from high school e.g. AP, IB, and A-Levels as well as all your credits from the University of Michigan.</p>
@@ -35,17 +48,21 @@
                 <h3>Your Time at UMSI: 60 Credits</h3>
                     <p>This includes a minimum of 45 SI Upper Level credits, consisting of required and elective coursework. The remaining 15 credits can be SI or not, as long as they are 300+ level courses.</p>
             </article>
-            <article>
-                <h3>Cohort Specific Requirements</h3>
-                <p>Fall 2023 and Fall 2024 start date requirements can be found in this <a href= "https://docs.google.com/document/d/1-a2zUTtPFetYwwlC0cTXoQkK8ERzb3IXn6KHN9evnpM/edit?tab=t.0">Google Doc.</a></p>
-                <p>Fall 2020 to Fall 2022 start date requirements can be found in this <a href= "https://docs.google.com/document/d/1op-TiBWz7B13xhjSXv4AP4VqDBPf13-c2KtisJbQ8M4/edit?tab=t.0">Google Doc.</a></p>
-            </article>
         </section>
 
         <section>
             <h2>Academic Advisors</h2>
             <img src="images/dropin.jpg" alt="Male academic advisor talking to students during drop-in advising session">
             <p>Academic advising is a process where students plan, execute, and reflect on their academic plans with guidance from a UMSI Academic Advisor.</p>
+            <br>
+            <article>
+                <h3>How do I book an appointment?</h3>
+                <ul>
+                    <li><p>Email us at umsi.advising.bsi@umich.edu.</p></li>
+                    <li><p>Book a <a href= "https://si-umich.navigate.eab.com/app/#/authentication/remote/">Scheduled 1:1 Appointment.</a></p></li>
+                    <li><p>Attend a <a href= "https://calendar.google.com/calendar/u/0/embed?src=umsi.advising.bsi@umich.edu&ctz=America/New_York">Drop-In 1:1 Appointment.</a></p></li>
+                </ul>
+            </article>
             <article>
                 <h3>What can my advisor help me with?</h3>
                 <ul>
@@ -65,18 +82,37 @@
                     <li>Follow through and follow-up with your advisor</li>
                 </ol>
             </article>
-            <article>
-                <h3>How do I book an appointment?</h3>
-                <p>Book a <a href= "https://si-umich.navigate.eab.com/app/#/authentication/remote/">Scheduled 1:1 Appointment.</a></p>
-                <p>Attend a <a href= "https://calendar.google.com/calendar/u/0/embed?src=umsi.advising.bsi@umich.edu&ctz=America/New_York">Drop-In 1:1 Appointment.</a></p>
-                <p>Email us at umsi.advising.bsi@umich.edu.</p>
-            </article>
         </section>
         <!-- Content taken from BSI Academic Advising Resource site and modified by myself (Tarini Bengani).  University of Michigan School of Information. (2025). BSI Academic Advising Resource. BSI Academic Advising Resource. https://sites.google.com/umich.edu/bsiacademicadvising/home -->
     </main>
+
     <footer>
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
-    </footer>
+        <div class="footer-container">
+      
+          <div class="footer-logo">
+            <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" id="logo">
+          </div>
+      
+          <div class="footer-social">
+            <h3>Social Media</h3>
+              <p><a href="https://www.facebook.com/uomsi/">Facebook</a> | <a href="https://www.instagram.com/umschoolofinformation">Instagram</a> | <a href="https://twitter.com/umsi">X</a> | <a href="https://www.youtube.com/user/schoolofinformation">YouTube</a></p>
+          </div>
+      
+          <div class="footer-nav">
+            <h3>Navigation</h3>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="academicplanning.html">Academic Planning</a></p>
+                <p><a href="firstgenevents.html">First Generation Events</a></p>
+                <p><a href="caps.html">CAPS</a></p>
+          </div>
+
+          <div class="footer-other">
+            <h3>Other</h3>
+            <p><a href="https://www.si.umich.edu/about-umsi/contact-us">Contact Us</a> | <a href="https://www.si.umich.edu/privacy-statement">Privacy Statement</a></p>
+          </div>
+
+        </div>
+      </footer>
     
 </body>
 

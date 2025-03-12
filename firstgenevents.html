@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
     <title>Events for First Generation Students</title>
 </head>
 <body>
 
     <header>
-        <a href = "">Skip to Main Content</a>
-              <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        <a href="#main" class="skip">Skip to Main Content</a>
+              <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" id="logo">
               <nav>
                   <ul>
                       <li><a href = "index.html">Home</a></li>
@@ -21,10 +28,10 @@
               <h1>First Generation Events</h1>
       
           </header>
-    <main>
+    <main id = "main" class = "gallery">
         <section>
-            <h2>2024 First-Generation Winter Community Dinner</h2>
-            <article>
+            <article class = "dinner">
+                <h2>Winter Community Dinner</h2>
                 <figure>
                     <img src="images/dinner1.jpeg" alt="Two female students eating food together and smiling">
                     <img src="images/dinner2.jpeg" alt="Two male students eating food together">
@@ -35,8 +42,8 @@
                 <h4>Register for the event on the <a href= "https://sessions.studentlife.umich.edu/track/event/session/73324">Student Life Website.</a></h4>
             </article>
 
-            <h2>First-Gen Day of Visibility</h2>
-            <article>
+            <article class = "visibility">
+                <h2>First-Gen Day of Visibility</h2>
                 <figure>
                     <img src="images/celebrating.jpg" alt="Large group of students celebrating with their hands up">
                     <img src="images/artactivity.jpg" alt="Two female students holding up their artistic creations">
@@ -47,8 +54,8 @@
                 <h4>Register for the event on the <a href= "https://sessions.studentlife.umich.edu/track/event/session/71124">Student Life Website.</a></h4>
             </article>
 
-            <h2>First-Gen Mentor Meet</h2>
-            <article>
+            <article class = "mentor">
+                <h2>First-Gen Mentor Meet</h2>
                 <figure>
                     <img src="images/mentortalk.jpg" alt="A male mentee listening carefully to his mentor">
                     <img src="images/mentoractivity.jpeg" alt="A mentor and mentee playing mini golf together"> 
@@ -61,9 +68,34 @@
         </section>
         <!-- Content taken from U-M First Gen site and modified by myself (Tarini Bengani).  University of Michigan. (2025). Homepage - First Generation Students | University of Michigan. First Generation Students | University of Michigan. https://firstgen.umich.edu/ -->
     </main>
+
     <footer>
-        <p>MSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising </a></p>
-    </footer>
+        <div class="footer-container">
+      
+          <div class="footer-logo">
+            <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" id="logo">
+          </div>
+      
+          <div class="footer-social">
+            <h3>Social Media</h3>
+              <p><a href="https://www.facebook.com/uomsi/">Facebook</a> | <a href="https://www.instagram.com/umschoolofinformation">Instagram</a> | <a href="https://twitter.com/umsi">X</a> | <a href="https://www.youtube.com/user/schoolofinformation">YouTube</a></p>
+          </div>
+      
+          <div class="footer-nav">
+            <h3>Navigation</h3>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="academicplanning.html">Academic Planning</a></p>
+                <p><a href="firstgenevents.html">First Generation Events</a></p>
+                <p><a href="caps.html">CAPS</a></p>
+          </div>
+
+          <div class="footer-other">
+            <h3>Other</h3>
+            <p><a href="https://www.si.umich.edu/about-umsi/contact-us">Contact Us</a> | <a href="https://www.si.umich.edu/privacy-statement">Privacy Statement</a></p>
+          </div>
+
+        </div>
+      </footer>
     
 </body>
 
